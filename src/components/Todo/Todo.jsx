@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaTrashAlt } from 'react-icons/fa';
 import styles from './Todo.module.css';
 
 export default function Todo({ todo, onUpdate, onDelete }) {
@@ -30,7 +29,6 @@ export default function Todo({ todo, onUpdate, onDelete }) {
       </label>
       <span className={styles.icon}>
         <button className={styles.button} onClick={handleDelete}>
-          {/* <FaTrashAlt /> */}
           🗑️
         </button>
       </span>
