@@ -21,7 +21,7 @@ export default function Header({ filters, filter, onFilterChange }) {
           </li>
         ))}
       </ul>
-      <button onClick={() => toggleDarkMode()}>
+      <button className={styles.toggle} onClick={() => toggleDarkMode()}>
         {!darkMode && '💡'}
         {darkMode && '💤'}
       </button>

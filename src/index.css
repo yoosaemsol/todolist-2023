@@ -11,6 +11,18 @@
   --color-light-level0: #ffffff;
   --color-light-level1: #e9e0bf;
   --color-light-level2: #ded5b5;
+  --color-light-level2-reverse: #191919;
+}
+
+html.dark {
+  --color-bg-dark: #292929;
+  --color-accent: #90aecf;
+  --color-text: #ffffff;
+  --color-active: #ffffff;
+  --color-inactive: #4a4a4a;
+  --color-light-level1: #393939;
+  --color-light-level2: #191919;
+  --color-light-level2-reverse: #ded5b5;
 }
 
 body {
@@ -75,5 +87,5 @@ button {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #f7d14d;
+  background-color: var(--color-accent);
 }
