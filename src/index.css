@@ -4,6 +4,8 @@
   --color-grey: #d1d1d1;
   --color-text: #22243b;
   --color-accent: #f16e03;
+  --color-active: #000000;
+  --color-inactive: #d4cbad;
 }
 
 body {
@@ -26,6 +28,7 @@ body {
   height: 60%;
   max-width: 500px;
   background-color: var(--color-bg-dark);
+  overflow: hidden;
   border-radius: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -40,4 +43,9 @@ code {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+button {
+  outline: none;
+  border: none;
 }
