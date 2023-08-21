@@ -1,0 +1,38 @@
+.formContainer {
+  padding: 0.4rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--color-bg-dark-level0);
+  display: flex;
+  border-radius: 2.7rem;
+}
+
+.input {
+  flex: 1 0 auto;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: var(--color-light-level0);
+  /* background-color: plum; */
+}
+
+.input::placeholder {
+  color: var(--color-light-level0);
+}
+
+.button {
+  color: var(--color-light-level0);
+  background-color: var(--color-bg-dark-level1);
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(180%);
+}

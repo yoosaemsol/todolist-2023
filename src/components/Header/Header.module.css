@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  /* background-color: var(--color-bg-dark); */
+  /* border-bottom: 1px solid var(--color-grey); */
+}
+
+.filters {
+  display: flex;
+}
+
+.filter {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  border: 1px solid var(--color-inactive);
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--color-inactive);
+  opacity: 1;
+}
+
+.filter:hover,
+.filter.selected {
+  border-color: var(--color-active);
+  color: var(--color-active);
+}
+
+/* .filter.selected::after {
+  content: '';
+  display: block;
+  margin-top: 0.2rem;
+  border: 1px solid var(--color-text);
+} */
