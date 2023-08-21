@@ -12,6 +12,7 @@
   --color-light-level1: #e9e0bf;
   --color-light-level2: #ded5b5;
   --color-light-level2-reverse: #191919;
+  --color-completed: #6f6b5c;
 }
 
 html.dark {
